@@ -21,6 +21,7 @@ public class Department {
 
     public void printEmployees() {
         employeeArrayList.forEach(employee -> {
+            System.out.println();
             System.out.println("Employee ID: " + employee.getEmployeeID());
             System.out.println("Employee Name: " + employee.getName());
             System.out.println("Employee Vacation Days: " + employee.getVacationDays());
